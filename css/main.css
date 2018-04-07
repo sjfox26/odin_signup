@@ -328,12 +328,33 @@ textarea {
 
 /* FOOTER STYLES */
 footer {
+    text-align: center;
     position: fixed;
     width: 100%;
     bottom: 0;   /*https://stackoverflow.com/questions/19330611/fixed-footer-in-bootstrap*/
-    text-align: center;
     color: #505050;
+    height: 170px;
 }
+
+.legal_links ul {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.legal_links li {
+    display: inline;
+    margin-right: 5px;
+}
+
+.legal_links li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.copyright {
+    margin-top: -15px;
+}
+
 
 /* MAIN FORM STYLES */
 .main_container{
