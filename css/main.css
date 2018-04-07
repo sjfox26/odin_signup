@@ -14,6 +14,8 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    background-color: #eceef1;
+    font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 /*
@@ -291,3 +293,62 @@ textarea {
 }
 
 
+/*TOP OF SITE */
+.top {
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.sign_in_button{
+    float: right;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+/* LOGO STYLES */
+.logo_container{
+    padding: 45px 0 30px;
+    text-align: center;
+}
+
+
+/* FOOTER STYLES */
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;   /*https://stackoverflow.com/questions/19330611/fixed-footer-in-bootstrap*/
+    text-align: center;
+    color: #505050;
+}
+
+/* MAIN FORM STYLES */
+.main_container{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+    width: 20%;
+}
+
+.ads ul{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1.2em;
+}
+
+.ads li{
+    display: inline;
+    margin-right: 25px;
+}
+
+.main_container hr{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.form_slogan{
+    color: #4C4C4C;
+    font-size: 24px;
+    margin-top: 10px;
+}
