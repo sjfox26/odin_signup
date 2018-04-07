@@ -296,8 +296,8 @@ textarea {
 /*TOP OF SITE */
 .top {
     text-align: right;
-    margin-right: 30px;
-    margin-top: 10px;
+    margin-right: 25px;
+    margin-top: 7px;
 }
 
 .signin_top{
@@ -307,6 +307,10 @@ textarea {
 }
 
 .signin_top button{
+    padding: 9px 26px;
+    border-radius: 5px;
+    border-color: black;
+    margin-top: -10px;
     color: white;
     background-color: #0077C5;
 }
