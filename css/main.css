@@ -300,16 +300,25 @@ textarea {
     margin-top: 10px;
 }
 
-.sign_in_button{
+.signin_top{
     float: right;
     padding-top: 10px;
     padding-left: 10px;
+}
+
+.signin_top button{
+    color: white;
+    background-color: #0077C5;
 }
 
 /* LOGO STYLES */
 .logo_container{
     padding: 45px 0 30px;
     text-align: center;
+}
+.logo_container a{
+    font-weight: bold;
+    font-color: #cdcdcd;
 }
 
 
@@ -351,4 +360,43 @@ footer {
     color: #4C4C4C;
     font-size: 24px;
     margin-top: 10px;
+}
+
+.create_account{
+    font-size: 0.9em;
+}
+
+.signup_form{
+    margin: 20px 20px;
+    text-align: left;
+}
+
+.signup_form input{
+    display: block;
+    margin-top: 5px;
+    width: 95%;
+    border: 1px solid #C1C5C8;
+    border-radius: 3px;
+    line-height: 1.3em;
+    padding-top: 8px;
+}
+
+.signup_form fieldset{
+    margin-bottom: 20px;
+}
+
+.signup_form button{
+    width: 96%;
+    margin-top: 15px;
+    border-radius: 3px;
+    line-height: 1.1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: #0077C5;
+}
+
+.signup_form .fineprint{
+    margin: 35px auto 25px;
+    width: 80%;
 }
