@@ -99,7 +99,134 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*TOP OF SITE */
+.top {
+    text-align: right;
+    margin-right: 25px;
+    margin-top: 7px;
+}
 
+.signin_top{
+    float: right;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.signin_top button{
+    padding: 9px 26px;
+    border-radius: 5px;
+    border-color: black;
+    margin-top: -10px;
+    color: white;
+    background-color: #0077C5;
+}
+
+/* LOGO STYLES */
+.logo_container{
+    padding: 45px 0 30px;
+    text-align: center;
+}
+
+
+/* FOOTER STYLES */
+footer {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;   /*https://stackoverflow.com/questions/19330611/fixed-footer-in-bootstrap*/
+    color: #505050;
+    height: 170px;
+}
+
+.legal_links ul {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.legal_links li {
+    display: inline;
+    margin-right: 5px;
+}
+
+.legal_links li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.copyright {
+    margin-top: -15px;
+}
+
+
+/* MAIN FORM STYLES */
+.main_container{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+    width: 20%;
+}
+
+.ads ul{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1.2em;
+}
+
+.ads li{
+    display: inline;
+    margin-right: 25px;
+}
+
+.main_container hr{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.form_slogan{
+    color: #4C4C4C;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.create_account{
+    font-size: 0.9em;
+}
+
+.signup_form{
+    margin: 20px 20px;
+    text-align: left;
+}
+
+.signup_form input{
+    display: block;
+    margin-top: 5px;
+    width: 95%;
+    border: 1px solid #C1C5C8;
+    border-radius: 3px;
+    line-height: 1.3em;
+    padding-top: 8px;
+}
+
+.signup_form fieldset{
+    margin-bottom: 20px;
+}
+
+.signup_form button{
+    width: 96%;
+    margin-top: 15px;
+    border-radius: 3px;
+    line-height: 1.1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: #0077C5;
+}
+
+.signup_form .fineprint{
+    margin: 35px auto 25px;
+    width: 80%;
+}
 
 
 
@@ -292,132 +419,3 @@ textarea {
     }
 }
 
-
-/*TOP OF SITE */
-.top {
-    text-align: right;
-    margin-right: 25px;
-    margin-top: 7px;
-}
-
-.signin_top{
-    float: right;
-    padding-top: 10px;
-    padding-left: 10px;
-}
-
-.signin_top button{
-    padding: 9px 26px;
-    border-radius: 5px;
-    border-color: black;
-    margin-top: -10px;
-    color: white;
-    background-color: #0077C5;
-}
-
-/* LOGO STYLES */
-.logo_container{
-    padding: 45px 0 30px;
-    text-align: center;
-}
-
-
-/* FOOTER STYLES */
-footer {
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    bottom: 0;   /*https://stackoverflow.com/questions/19330611/fixed-footer-in-bootstrap*/
-    color: #505050;
-    height: 170px;
-}
-
-.legal_links ul {
-    list-style: none;
-    margin-right: 30px;
-}
-
-.legal_links li {
-    display: inline;
-    margin-right: 5px;
-}
-
-.legal_links li:hover {
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-.copyright {
-    margin-top: -15px;
-}
-
-
-/* MAIN FORM STYLES */
-.main_container{
-    margin: 0 auto;
-    text-align: center;
-    background-color: #fff;
-    border: 1px solid #c7c7c7;
-    width: 20%;
-}
-
-.ads ul{
-    list-style: none;
-    margin-right: 30px;
-    font-size: 1.2em;
-}
-
-.ads li{
-    display: inline;
-    margin-right: 25px;
-}
-
-.main_container hr{
-    margin: 0 auto;
-    width: 80%;
-}
-
-.form_slogan{
-    color: #4C4C4C;
-    font-size: 24px;
-    margin-top: 10px;
-}
-
-.create_account{
-    font-size: 0.9em;
-}
-
-.signup_form{
-    margin: 20px 20px;
-    text-align: left;
-}
-
-.signup_form input{
-    display: block;
-    margin-top: 5px;
-    width: 95%;
-    border: 1px solid #C1C5C8;
-    border-radius: 3px;
-    line-height: 1.3em;
-    padding-top: 8px;
-}
-
-.signup_form fieldset{
-    margin-bottom: 20px;
-}
-
-.signup_form button{
-    width: 96%;
-    margin-top: 15px;
-    border-radius: 3px;
-    line-height: 1.1em;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-    background-color: #0077C5;
-}
-
-.signup_form .fineprint{
-    margin: 35px auto 25px;
-    width: 80%;
-}
